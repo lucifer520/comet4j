@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- comet4j -->
+	<listener>
+		<description>Comet4J容器侦听</description>
+		<listener-class>org.comet4j.core.CometAppListener</listener-class>
+	</listener>
+	<servlet>
+		<description>Comet连接[默认:org.comet4j.core.CometServlet]</description>
+		<display-name>CometServlet</display-name>
+		<servlet-name>CometServlet</servlet-name>
+		<servlet-class>org.comet4j.core.CometServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CometServlet</servlet-name>
+		<url-pattern>/comet</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<description>TestComet</description>
+		<listener-class>TestComet</listener-class>
+	</listener>
+  
+  
+</web-app>
