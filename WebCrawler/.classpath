@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/webclient/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/fluent-hc-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/httpclient-cache-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/httpclient-win-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="libs/webclient/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
